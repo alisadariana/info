@@ -1,0 +1,1 @@
+scp <path_to_file> <whoami_name>@<ip_address>:/<path_to_folder>/

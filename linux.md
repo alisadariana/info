@@ -1,5 +1,14 @@
 # Linux things
 
+## Prepare SD Card with Linux image
+
+1. download ADI Kuiper Linux
+2. unzip
+3. format SD card
+4. $ sudo umount /dev/<sd_name>
+5. $ time sudo dd if=<path_to_kuiper_image> of=/dev/<sd_name>
+	- ex: time sudo dd if=/home/dariana/base/adi_kuiper_linux/image_2022-08-04-ADI-Kuiper-full/2022-08-04-ADI-Kuiper-full.img of=/dev/sda
+
 ## Kernel Debugging
 
 https://www.linuxtopia.org/online_books/linux_kernel/kernel_configuration/ch09s07.html

@@ -27,6 +27,14 @@ https://home.regit.org/technical-articles/git-for-the-newbie/
 Linux Kernel Archives
 https://www.kernel.org/
 
+### Scripts to check code
+
+```
+scripts/checkpatch.pl -f --strict ./drivers/iio/adc/ad7192.c
+
+scripts/checkpatch.pl -f --ignore FILE_PATH_CHANGES --ignore LONG_LINE --ignore LONG_LINE_STRING --ignore LONG_LINE_COMMENT --strict ./drivers/iio/adc/ad7192.c
+```
+
 ## Git sendmail
 
 ### Git sendmail configuration

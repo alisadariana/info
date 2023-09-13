@@ -1,5 +1,35 @@
 # Linux things
 
+## Linux VS Code Configuration
+
+```
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/arch/arm/include",
+                "${workspaceFolder}/arch/arm/include/generated"
+            ],
+            "defines": [
+                "__KERNEL__",
+                "MODULE",
+                "MODULE_AUTHOR(x)=x",
+                "MODULE_DESCRIPTION(x)=x",
+                "MODULE_LICENSE(x)=x"
+            ],
+            "compilerPath": "/home/dariana/Workspace/compilers/gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf/bin/arm-none-linux-gnueabihf-gcc",
+            "cStandard": "c11",
+            "intelliSenseMode": "linux-gcc-arm",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
+```
+
 ## Prepare SD Card with Linux image
 
 1. download ADI Kuiper Linux

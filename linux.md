@@ -48,6 +48,7 @@ https://www.linuxtopia.org/online_books/linux_kernel/kernel_configuration/ch09s0
 ```
 export ARCH=<arch>
 export CROSS_COMPILE=<cross_compiler>
+    export CROSS_COMPILE=<path_to_compiler>/gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf/bin/arm-none-linux-gnueabihf-
 make <board_basic_configuration>
 make menuconfig
 	add needed features

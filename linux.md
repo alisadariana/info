@@ -20,7 +20,6 @@
                 "MODULE_DESCRIPTION(x)=x",
                 "MODULE_LICENSE(x)=x"
             ],
-            "compilerPath": "/home/dariana/Workspace/compilers/gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf/bin/arm-none-linux-gnueabihf-gcc",
             "cStandard": "c11",
             "intelliSenseMode": "linux-gcc-arm",
             "configurationProvider": "ms-vscode.makefile-tools"
